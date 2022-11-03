@@ -1,0 +1,73 @@
+*
+{
+padding: 5px;
+margin: 5px;
+}
+body
+{
+	background-color: #1820f5;
+	color: red;
+}
+.ankush img
+{
+	width: 70px;
+	height: 70px;
+	border-radius: 500px;
+	background-color: yellow;
+
+}
+.ankush input
+{
+	
+	width: 500px;
+}
+
+
+
+
+
+
+
+.ankush2
+{
+	background-color: #d2d5d9;
+	background-color:;
+}
+.ankush2 img 
+
+{
+	position: relative;
+    width: 150px;
+	height: 150px;
+	position: relative;
+	border-radius: 100px;
+
+}
+.ankush2 h1 
+{
+    position: absolute;
+	font-size: 50px;
+	margin-top: 50px;
+	#background-color: yellow;
+	color: red;
+    top: 150px;
+    right:800px;
+
+
+}
+.card
+{
+	background-color: red;
+	color: black;
+	text-align: center;
+}
+
+
+.alert i 
+{
+	font-size:60px;
+    text-align: center;
+	color: red;
+	margin-right:10px;
+}
+.alert i dbox2

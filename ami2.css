@@ -1,0 +1,131 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body
+
+
+{
+	margin-top: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vs;
+	background:black;
+
+}
+.cube
+{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	transform-style: preserve-3d;
+	transform: rotateX(-50deg);
+	animation: ankush 4s linear infinite;
+}
+@keyframes ankush
+{
+   0%{transform: rotateX(-30deg) rotateY(0deg);}
+   100%{transform: rotatex(-30deg) rotateY(360deg);}
+}
+
+
+.cube div 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+}
+
+.cube div span
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#fcfc03,#151515, #fc0366, #fcc203,#fc030f,#00ec00);
+	transform: rotateY(calc(90deg*var(--i))) translateZ(150px);
+}
+
+.ankush2 h3
+
+{
+	#background-color: red;
+	#color: red;
+	width: 20px;
+	height: 20px;
+}
+
+.ankush2 h3 audio 
+{
+
+	margin-top: 200px;
+
+}
+
+.container5
+{
+	width: 100%;
+	height: 100%;
+	#background-color: red;
+	position: absolute;
+	overflow: hidden;
+
+}
+.bird
+{
+position: relative;
+width: 100px;
+left: 100%;
+animation: fly 180s infinite;
+}
+@keyframes fly
+{
+	0%{right:-20%; top:5px;}
+	25%{top:150px;}
+	50%{top:30px;}
+	75%{top:25px;}
+	100%{left: -100%; top: 105px;}
+}
+
+
+.container
+{
+	width: 100%;
+	height: 100%;
+	#background-color: red;
+	position: absolute;
+	overflow: hidden;
+
+}
+.bird
+{
+position: relative;
+width: 100px;
+left: 100%;
+animation: fly 100s infinite;
+}
+@keyframes fly
+{
+	0%{right:-20%; top:5px;}
+	25%{top:20px;}
+	50%{top:50px;}
+	75%{top:25px;}
+	100%{left: -100%; top: 105px;}
+}
+
+
+
+.col-auto 
+{
+	color: red;
+	position: absolute;
+	font-size: 850px;
+}

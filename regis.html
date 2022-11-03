@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style type="text/css">
+        input[type="text"] {
+            opacity: 0.3;
+            border-radius: 5px;
+        }
+        
+        input[type="email"] {
+            opacity: 0.3;
+            border-radius: 5px;
+        }
+        
+        input[type="password"] {
+            opacity: 0.3;
+            border-radius: 5px;
+        }
+        
+        input[type="submit"] {
+            width: 80px;
+            height: 30px;
+            background-color: gray;
+            color: white;
+            border-radius: 10px;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .box {
+            height: 150px;
+            width: 400px;
+            margin: 70px auto;
+        }
+        
+        h1 {
+            text-align: center;
+            color: aliceblue;
+            font-family: 'Lobster', cursive;
+        }
+        
+        body {
+            #background-image: height: url(dig3.jpg) ;
+            #background-color: black;
+            background-size: cover;
+            box-sizing: border-box;
+            background-position: center;
+        }
+        
+        th {
+            color: aliceblue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        a {
+            color: aliceblue;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body style="background-image: url(dig.jpg);" >
+    
+    <a href="project.html">HOME</a>
+    <h1>SIGN UP</h1>
+    <div class="box">
+        <form action="/regs">
+
+            <table>
+                <tr>
+                    <th style="font-size:30px">Name:</th>
+                    <th><input type="text" placeholder="enter name" name="name"style="font-size:20px"></th>
+                </tr>
+                <tr>
+                    <th h style="font-size:30px">Moblie no.:</th>
+                    <th><input type="text" placeholder="enter mobile no." name="mob" style="font-size:20px" ></th>
+                </tr>
+                <tr>
+                    <th h style="font-size:30px">Email id:</th>
+                    <th><input type="email" placeholder="enter email" name="email" style="font-size:20px"></th>
+                </tr>
+                <tr>
+                    <th h style="font-size:30px">password:</th>
+                    <th><input type="password" name="pass" placeholder="enter password" style="font-size:20px"></th>
+                </tr>
+                <tr>
+                    <th h style="font-size:30px">Confirm password:</th>
+                    <th><input type="password" name="cpass" placeholder="re-enter password" style="font-size:20px"></th>
+                </tr>
+                <tr>
+                    <th colspan="5"><input type="submit" value="SIGN UP"style="font-size:20px"></th>
+                </tr>
+            </table>
+
+        </form>
+    </div>
+</body>
+
+</html>

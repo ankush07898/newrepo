@@ -1,0 +1,67 @@
+
+
+body
+{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	#background-color:black;
+
+
+}
+.box
+{
+	width: 500px;
+	height: 20px;
+	background-color: white;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+
+
+}
+.box i 
+ 
+ {
+ 	font-size: 20px;
+ 
+ }
+ .box input
+ {
+ 	flex: 1px;
+ 	height: 30px;
+ 	border: none;
+ 	outline: none;
+ 	font-size: 15px;
+ 	padding-left: 10px;
+ 	border-radius: 30px;
+ }
+
+.container
+{
+	background-color: grey;
+}
+
+
+
+.container i 
+{
+	#font-size: 40px;
+}
+.container img
+{
+	height: 30px;
+	width: 30px;
+}
+.container font
+{
+	font-size: 50px;
+	color: red;
+}
+
+.container1 i
+{
+	#font-size: 70px;
+}

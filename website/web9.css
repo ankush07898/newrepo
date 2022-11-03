@@ -1,0 +1,186 @@
+
+
+
+ul
+    {
+		padding:0;
+		margin:0;
+		list-style: none;
+		height: 36px;
+		line-height: 36px;
+		background-color: #000;
+		font-family: Arial,Helvetica,sans-serif;
+		font-size: 20px;
+
+   } 
+  li 
+  {
+  	float:left;
+  	border-right: 1px solid white;
+  }
+
+   li a 
+  {
+  	display: block;
+  	padding: 0 8px;
+  	color: white;
+
+  	text-decoration: none;
+  }
+ :hover
+  {
+  	background-color: yellow;
+  }
+ .active a 
+ {
+ 	background-color:blue;
+ }
+
+.active 
+ {
+ 	border-radius: 20px;
+ 
+ }
+ img
+ {
+ 	width:300px;
+ 	height:300px;
+ 	border-radius: 500px;
+ }
+ .ankush2 img
+ {
+ 	position: relative;
+ 	background-color: black;
+ }
+
+ .ankush2 h1
+ {
+ 	
+ 	position:absolute;
+ 	color: ;
+ 	border-radius: 20px;
+ 	height: 50px;
+    top: 400px;
+
+ }
+
+.ankush2 h2
+ {
+ 	
+ 	position:absolute;
+ 	color: ;
+ 	border-radius: 20px;
+ 	height: 50px;
+    top: 400px;
+    right: 710px;
+    background-color: red;
+
+ }
+
+ .ankush2 h3
+ {
+ 	
+ 	position:absolute;
+ 	color: ;
+ 	border-radius: 20px;
+ 	height: 50px;
+    top: 400px;
+    right: 310px;
+    background-color: red;
+
+ }
+
+
+
+
+
+
+
+
+ .ankush3 img
+ {
+ 	position: relative;
+ 	color: white;
+ }
+
+.ankush3 h1
+ {
+ 	
+ 	position:absolute;
+ 	color: ;
+ 	border-radius: 50px;
+ 	height: 50px;
+    top: 850px;
+}
+.ankush3 h2
+ {
+ 	
+ 	position:absolute;
+ 	color: ;
+ 	border-radius: 50px;
+ 	height: 50px;
+    top: 850px;
+    right: 710px;
+    background-color: red;
+}
+
+.ankush3 h3
+ {
+ 	
+ 	position:absolute;
+ 	color: ;
+ 	border-radius: 50px;
+ 	height: 50px;
+    top: 850px;
+    right: 310px;
+    background-color: red;
+
+ }
+
+
+
+
+ .ankush4 img
+ {
+ 	position: relative;
+ 	color: white;
+ }
+
+.ankush4 h1
+ {
+ 	
+ 	position:absolute;
+ 	color: ;
+ 	border-radius: 50px;
+ 	height: 50px;
+    top: 850px;
+}
+.ankush4 h2
+ {
+ 	
+ 	position:absolute;
+ 	color: ;
+ 	border-radius: 50px;
+ 	height: 50px;
+    top: 1000px;
+    right: 710px;
+    background-color: red;
+}
+
+.ankush4 h3
+ {
+ 	
+ 	position:absolute;
+ 	color: ;
+ 	border-radius: 50px;
+ 	height: 50px;
+    top: 1320PX;
+    right: 310px;
+    background-color: red;
+
+ }
+
+
+
+
+
